@@ -1,0 +1,25 @@
+.subform {
+    clear:both;
+    padding-top: 15px;
+}
+
+.subform .remarks {
+    font-size: 0.85em;
+    font-style: italic;
+    margin: 5px 0px;
+}
+
+.trace-no > .value {
+    display: block;
+    padding: 10px;
+}
+
+.subform textarea {
+    width:50%;
+}
+
+.page-tab textarea {
+    font-size:1.05em;
+    width:50%;
+    overflow-y:auto;
+}

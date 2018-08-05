@@ -1,0 +1,67 @@
+{
+    "app":{
+        "organization":"Shopbay.org",
+        "name":"Shopbay"
+    },    
+    "system":{
+        "versionLabel":"<Please input your application version label, e.g. Beta>",
+        "shopThemePath":"<Please input shop themes resource files directory, e.g. /path/shopbay-shop-assets/themes>",
+        "shopWidgetPath":"<Please input shop widgets resource files directory, e.g. /path/shopbay-shop-assets/widgets>",
+        "gitWorkTree":"<Please input your git working directory, e.g. /INSTALL_PATH>",
+        "gitBranch":"<Please input your git branch name this app is targetting, e.g. develop>",
+        "gitDir":"<Please input your git directory, e.g. /user/demo/repo.git>",
+        "yii1Path":"<Please input your Yii1 framework directory, e.g. /user/demo/yii-1.1.17.467ff50>",
+        "yii2Path":"<Please input your Yii2 framework directory, e.g. /user/demo/yii-2.0.6>",
+        "yiiDebug":true,
+        "yiiTraceLevel":8,
+        "yiiEnv":"dev"
+    },
+    "domain":{
+        "host":"<Please input the host domain, e.g. www.shopbay.org>",
+        "merchant":"<Please input the merchant domain, e.g. merchant.shopbay.org or merchant.shopbay.org:8080>",
+        "api":"<Please input the api server domain, e.g. api.shopbay.org or api.shopbay.org:8081>"
+    },
+    "database":{
+        "dbhost":"<Please input the database hostname, e.g. localhost>",
+        "dbname":"<Please input the encrypted database name>",
+        "username":"<Please input the encrypted database username>",
+        "password":"<Please input the encrypted database password>"
+    },
+    "storage":{
+        "media":{
+            "mount_point_1":"<Please input the default media storage location mount point 1, e.g. /path/media/files/1>",
+            "mount_point_2":"<Please input the default media storage location mount point 2, e.g. /path/media/files/2>"
+        }
+    },
+    "email":{
+        "smtp_host":"<Please input smtp hostname, e.g. smtp.gmail.com>",
+        "smtp_port":"<Please input smtp port, e.g. 587>",
+        "smtp_secure":"<Please input smtp secure, e.g. tls or ssl>",
+        "smtp_username":"<Please input the encrypted stmp username>",
+        "smtp_password":"<Please input the encrypted stmp password>",
+        "sender_name":"<Please input the email sender name>"
+    },
+    "elasticsearch":{
+        "host":"<Please input the elasticsearch hostname, e.g. localhost>",
+        "port":9200
+    },
+    "facebook":{
+        "appId":"<Please input the facebook app id for oauth use>",
+        "appSecret":"<Please input the facebook app secret for oauth use>"
+    },
+    "googleanalytics":{
+        "gtmAccount":"<Please input the google analytics account id (GTM)>",
+        "enable":false
+    },
+    "braintree":{
+        "apiMode":"<Please input either 'sandbox' or 'live'>",
+        "merchantId":"<Please input braintree merchant id>",
+        "publicKey":"<Please input braintree public key>",
+        "privateKey":"<Please input braintree private key>",
+        "merchantAccounts":{
+            "<ISO 4721 currency code>":"<Please input merchant account id of this currency>",
+            "<ISO 4721 currency code>":"<Please input merchant account id of this currency>",
+            "<ISO 4721 currency code>":"<The list goes on>"
+        }
+    }
+}

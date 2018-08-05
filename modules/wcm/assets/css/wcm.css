@@ -1,0 +1,1811 @@
+body.wcm .smodal-content input {
+    height: 30px;
+}
+body.wcm .smodal-content input.ui-button {
+    margin-bottom: 20px;
+    width: 93%;
+    height:35px;
+}
+body.wcm .smodal-content .checkbox-wrapper input {
+    height: 15px;
+}
+body.wcm .smodal-content .form-row.tos {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+body.wcm.error .smodal-content input {
+    height: 30px;
+    width: 95%;
+}
+body.wcm.error .smodal-content input.ui-button {
+    width: 92%;
+}
+
+body.wcm,
+body.wcm.black .header-container {
+    font-family: "Helvetica",Helvetica,Arial,sans-serif;
+    background: white;
+    color: #111;
+}
+body.wcm .footer-container {
+    background: #111;
+    color: white;
+}
+body.wcm .footer-container li {
+    font-size: 16px;
+}
+body.wcm .page-container,
+body.wcm .page-content {
+    min-height: auto;
+}
+body.wcm .page-layout {
+    position: initial;
+}
+
+body.wcm.black,
+body.wcm.black .header-container {
+    background: #111;
+    color: white;
+}
+body.wcm .header-container {
+    line-height:0;
+    background: white;
+}
+body.wcm .header-container a {
+    color: #111;
+    cursor: pointer;
+}
+body.wcm.black .header-container a {
+    color: white;
+}
+body.wcm.black .header-container li ul li a {
+    color: #111;
+    font-weight: 200;
+}
+body.wcm .header-container a:hover {
+    text-decoration: underline;
+}
+body.wcm .sitelogo {
+    float:left;
+    margin:10px 20px;
+}
+body.wcm .sitelogo .subscript {
+    font-size: .4em;
+    top: 7.5px;
+    left: 2px;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    padding: 0px 4px 1px;
+    background: orangered;
+}
+body.wcm .sitelogo img.corporate-logo
+{
+    width: 120px;
+}
+body.wcm .nav-menu {
+    margin:0px;
+}
+body.wcm .nav-container a {
+    color: white;
+    cursor: pointer;
+}
+body.site .nav-container a {
+    color: black;
+}
+body.wcm .nav-menu ul {
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin:15px;
+}
+body.wcm.black .nav-menu ul {
+    font-weight: 100;
+}
+body.wcm .nav-menu li.language-menu:hover > a,
+body.wcm .nav-menu a:hover {
+    color:white;
+}
+body.wcm .nav-menu li.register-menu-item a {
+    padding: 5px 10px;
+    margin-top: -5px;
+    border: 1px solid white;
+/*    border-radius: 4px;*/
+}
+body.wcm .nav-menu li ul {
+    margin:0;
+    padding:0;
+}
+body.wcm .nav-menu li ul li a {
+    min-width: 65px;
+}
+body.wcm .nav-menu li ul li {
+    display: block;
+}
+body.wcm .nav-menu li.language-menu {
+    margin-left:10px;
+}
+body.wcm .nav-menu li.features ul {
+    width: 260px;/* cater longer width to accomodate long words menu items*/
+    z-index: 1000;
+}
+
+body.wcm .header-container .color-bar {
+    width: 100%;
+    clear: both;
+}
+body.wcm .header-container .color-bar div {
+    display: inline-block;
+    width: 25%;
+    border: 0;
+    float: left;
+    line-height: 3px;
+}
+body.wcm .header-container .color-bar div:after {
+    content: "\00a0";
+}
+body.wcm .header-container .color-bar div.red,
+body.wcm .segment.red {
+    background: #FF6666;
+    color:#111;
+}
+body.wcm .header-container .color-bar div.yellow,
+body.wcm .segment.yellow {
+    background: #FFFF6E;
+    color:#111;
+}
+body.wcm .header-container .color-bar div.green,
+body.wcm .segment.green {
+    background: #B5F07B;
+    color:#111;
+}
+body.wcm .header-container .color-bar div.blue,
+body.wcm .segment.blue {
+    background: #7DEBFF;
+    color:#111;
+}
+body.wcm .segment.white {
+    background: white;
+    color:#111;
+}
+body.wcm .segment.whitesmoke {
+    background: whitesmoke;
+    color:#111;
+}
+body.wcm .segment.grey {
+    background: grey;
+    color:white;
+}
+body.wcm .segment.black {
+    background: #111;
+    color:white;
+}
+body.wcm .segment.top .form-input.ui-button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+}
+body.wcm.white .segment.top .form-input.ui-button {
+    color: white;
+    border: 0;
+    background: orangered;    
+}
+.segment h1 {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin:0;
+/*    letter-spacing: 0.02em;*/
+}
+.segment.top h1 {
+    font-size: 50px;
+}
+.segment h1:first-child {
+    margin-top:50px;
+}
+.segment h1:last-of-type {
+    margin-bottom:20px;
+}
+.segment h2 {
+    letter-spacing: 0.03em;
+    font-weight: 200;
+    font-size: 25px;
+}
+.segment h3 {
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    font-weight: 200;
+}
+.segment.canvas {
+    background:none;
+    color: #2B2B2B;
+    padding: 80px 0px;
+    font-weight: 100;
+}
+body.black .segment.canvas {
+    color: white;
+}
+.segment.canvas:first-child {
+    margin-top:50px;
+}
+.segment.canvas h1 {
+    margin-top:0px;
+}
+.segment.canvas p {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.segment.canvas a {
+    color: #111;
+}
+body.black .segment.canvas a {
+    color: white;
+}
+.segment.canvas.values ul li {
+    display: inline-block;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 30px 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;    
+    vertical-align: top;    
+}
+.segment.canvas.values ul li.red {
+    background: #FF6666;
+}
+.segment.canvas.values ul li.yellow {
+    background: #FFFF6E;
+    color: #111;
+}
+.segment.canvas.values ul li.green {
+    background: #B5F07B;
+    color: #111;
+}
+.segment.canvas.values ul li.blue {
+    background: #7DEBFF;
+    color: #111;
+}
+.segment.canvas.values ul li.black {
+    background: #111;
+}
+body.black .segment.canvas.values ul li.black {
+    border: 1px solid white;
+}
+.segment.canvas.values ul li.white {
+    background: white;
+    color: #111;
+    border: 1px solid lightgray;
+}
+
+.web-content.center {
+    text-align: center;
+    font-size: 1.5em;
+}
+.web-content h1 {
+    color: black;
+    font-size: 2.5em;
+    border-bottom: 1px solid #ddd;
+}
+.web-content h2 {
+    font-size: 2em;
+    border-bottom: 1px dashed #ddd;
+}
+.web-content h3 {
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+.web-content a {
+    color: #4183c4;
+    text-decoration: none;
+}
+.web-content pre {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 6px 10px;
+    overflow: auto;
+    line-height: 19px;
+    font-size: 13px;
+}
+.web-content code {
+    margin: 0;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+}
+.web-content code:before, .web-content code:after {
+    content: "\00a0";
+    letter-spacing: -0.2em;
+}
+.web-content blockquote {
+    border-left: 4px solid #DDD;
+    padding: 0 15px;
+    color: #777;
+    margin:0;
+}
+.web-content img {
+    vertical-align: bottom;
+}
+
+.web-content textarea {
+    width:100%;
+    resize:none;
+    overflow-y:scroll;
+    font-size:14px;
+}
+
+.segment.top {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    min-height:585px;*/
+    padding: 5% 3%;
+}
+.segment.top:first-child button,
+.segment:first-child form input.ui-button {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+    height: 60px;
+    margin-top: 30px;
+}
+body.black .segment.top:first-child button,
+body.black .segment:first-child form input.ui-button {
+    border: 1px solid white;
+    color: white;
+}
+.segment.top h1,
+.segment.top h2,
+.segment.top h3 {
+    font-weight: 100;
+}
+body.white .segment.top h1,
+body.white .segment.top h2,
+body.white .segment.top h3 {
+    font-weight: 200;
+}
+.segment.top .signup-merchant-form-wrapper .form-input.ui-button {
+    background: none;
+    color:black;
+    border: 1px solid black;
+}
+.segment.top .signup-merchant-form-wrapper .form-input.ui-button:hover {
+    background: yellow;
+}
+.segment.top:first-child button:hover,
+.segment.top .signup-merchant-form-wrapper .form-input.ui-button:hover {
+    background: yellow;
+    color:black;
+}
+.segment.landing img.landing-background {
+    position: absolute;
+    top: 125px;
+    left: 650px;
+    width: 70%;
+    z-index: -1;
+}
+.segment.top h1 {
+    color: white;
+}
+.segment.top h2 {
+    padding: 2px 5px;
+    display: initial;
+    color:white;
+}    
+.segment.pricing.top h1,
+.segment.pricing.top h3 {
+    color: white;
+}
+.segment.landing.top {
+    background: deepskyblue;
+/*    background-image: url(/images/bg-landing.jpg) !important;*/
+}
+.segment.landing.top p{
+    background: black;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+.segment {
+/*    background-image: url(/images/bg-admin-console.jpg) !important;*/
+}
+.segment.pricing {
+    background: deepskyblue;
+/*    background-image: url(/images/bg-pricing.jpg) !important;*/
+}
+.segment.features {
+    background: deepskyblue;
+/*    background-image: url(/images/bg-features.jpg) !important;*/
+    text-align: center;
+}
+
+body.wcm #signup_page,
+body.wcm #login_page {
+/*    background-image: url(/images/bg-login.jpg) !important;*/
+    background: deepskyblue;
+    padding:80px;
+    margin: 0;
+}
+.segment.features h1 {
+    display:inline-block;
+    padding:0px 10px;
+}
+.segment.features h1:after {
+   content:",";
+}
+.segment.features h1:last-of-type:after {
+    content:"";
+}
+.segment.features .image-container {
+    display:inline;
+}
+.segment.features img.main-background {
+    width: 50%;
+    padding: 40px 0 0px;
+    display: inline-block;
+}
+.segment.features div.buttons {
+    width:25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.segment.features div.buttons button {
+    width:100%;
+}
+.segment.pricing {
+    text-align: center;
+    padding:5% 0%;
+}
+.segment.pricing .page-layout {
+    margin: 40px auto;
+}
+body.black .segment.pricing, 
+body.black .segment.pricing .page-layout {
+    background-color: #111;
+}
+
+.segment .items .plan-package {
+    border: 0px;
+    font-size:1.2em;
+    color: black;
+    background: whitesmoke;
+}
+
+body.wcm.black .items .plan-package {
+    border: 1px solid white;
+    color: white;
+    background: none;
+}
+body.wcm .segment .plan-card h1 {
+    font-size: 2em;
+    color:black;
+}
+body.wcm .segment .plan-features h1,
+body.wcm .segment .plan-features h2,
+body.wcm .segment .plan-features h3 {
+    color:black;
+}
+body.wcm .segment .plan-features h1 {
+    font-size: 1.5em;
+}
+body.wcm .main-view .body .plan-package:nth-child(1) .ui-button {
+    background: #FF6666;
+    border:1px solid #FF6666;
+}
+body.wcm.black .main-view .body .plan-package:nth-child(1) .ui-button {
+    color: #111;
+}
+body.wcm .main-view .body .plan-package:nth-child(2) .ui-button {
+    background: #FFFF6E;
+    color: #111;
+    border:1px solid #FFFF6E;
+}
+body.wcm .main-view .body .plan-package:nth-child(3) .ui-button {
+    background: #B5F07B;
+    color: #111;
+    border:1px solid #B5F07B;
+}
+body.wcm .main-view .body .plan-package:nth-child(4) .ui-button {
+    background: #7DEBFF;
+    color: #111;
+    border:1px solid #7DEBFF;
+}
+body.wcm .plan-features {
+    font-size: 14px;
+}
+.segment.error {
+    min-height: 500px;
+    margin-top: 60px;
+}
+.segment.error p {
+    margin: 20px;    
+}
+.segment p {
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.segment.common-features {
+    background: white;
+}
+body.black .segment.common-features {
+    color: #111;
+}
+.segment.common-features .callout {
+    font-size: 1.2em;
+    width: 25%;
+}
+.segment.common-features .button-wrapper {
+    height:100px;
+}
+.segment.common-features .button-wrapper a {
+    background:#1E90FF;
+    top:40px;
+    text-transform: uppercase;
+}
+.segment.pricing .main-view .body {
+    padding:0;
+    margin-bottom: 20px;
+}
+.segment .plan-features h1 {
+    margin:0px;
+    padding: 0;
+    line-height: 40px;
+}
+.segment .plan-card h1 {
+    margin: 10px 0px 15px;
+    text-align: center;
+    font-size: 2.5em;
+}
+.segment .plan-features .items,
+.segment .plan-features ul {
+    font-size: 13.5px;
+    line-height: 20px;
+}
+.segment .plan-price-details.others {
+    margin-top: 0px;
+}
+
+.segment.pricing .page-content {
+    border:0;
+}
+.segment .plan-features ul {
+    color: #777;
+    list-style-type: none;
+}    
+.segment.demo {
+    background: white;
+}
+.segment.get-plan {
+    background: whitesmoke;
+}
+
+.segment.get-plan {
+  color:#111;
+  padding: 50px 0px;
+}
+.segment.get-plan div,
+.segment.get-plan h2 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.segment.get-plan .form-input.pricing.ui-button {
+  border-color: #111;
+  text-transform: uppercase;
+}
+.segment.get-plan .form-input.ui-button {
+    border: 1px solid #111;
+    padding:20px;
+    color: #111;
+    background: none;
+    width: 20%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.segment.custom {
+    background: #FF6666;
+    color: #111;
+}
+
+.segment.features-set {
+    padding:40px;
+}
+body.black .segment.features-set {
+    background: white;
+    color: #111;
+}
+
+.segment.feature-set:nth-child(odd){
+    background: #F1F1F1;
+}
+
+.segment.feature-set h1 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+.segment .callout {
+    display:inline-block;
+    font-size:1.3em;
+    padding: 20px 40px;
+    width:25%;
+    vertical-align: top;
+}
+.segment .callout .fa {
+    font-size: 4em;
+}
+.segment.highlight .callout p {
+    font-size: 18px;
+}
+.segment .callout p {
+    color: black;
+    line-height: 1.3;
+    font-size: .9em;
+    font-weight: 100;
+}
+.segment:first-child .callout  p {
+    color:aquamarine;
+}
+.segment .callout a {
+    color: darkgray;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+}
+.segment .callout .link {
+    color: #1E90FF;
+}
+.segment .callout img {
+    width: auto;
+    max-height: 200px;
+}
+.segment .callout h3 {
+    font-size: 25px;
+}
+.segment .callout.messenger {
+    width: 42%;
+}
+.segment .callout.community {
+    width: 18%;
+}
+.segment .buttons {
+    margin: 50px; 
+}
+.segment .buttons.messenger a.link {
+    top: 0; 
+    background: #0084ff;
+}
+.segment .buttons.admin-console,
+.segment .buttons.community {
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+body.black .segment.faq {
+    color: #111;
+}
+.segment.faq a {
+    color: black;
+    text-decoration: underline;
+}
+.segment.faq .question-wrapper {
+    margin-top: 0px;
+    text-align: left;
+    margin: 0px 40px;
+}
+.segment.faq .question-wrapper .question {
+    display: inline-block;
+    width: 45%;
+    padding: 0px 0px 0px 50px;
+    text-align: center;  
+    vertical-align: top;
+}
+.segment.faq .question-wrapper .question h3 {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font: 400 1.4em/1.2 "brandon-grotesque",sans-serif;
+    text-align: left;
+    margin-bottom: 5px;  
+}
+.segment.faq .question-wrapper .question p {
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    font: 100 1.1em/1 "brandon-grotesque",sans-serif;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom:10px;
+}
+ 
+.segment.package .feature-set{
+    display: inline-block;
+    width: 60%;    
+    padding: 10px;
+    text-align: left;
+}
+.segment.package .feature-set .callout{
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0;
+    width: 18%;
+    text-align: center;    
+}
+
+.segment.highlight {
+    padding: 2%;
+}
+.segment.highlight h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+.segment.highlight h2 {
+    font-weight: 300;
+    font-size: 2.2em;
+    text-transform: uppercase;    
+    margin-top: 0px;
+}
+.segment.highlight.box{
+    padding: 4%;
+}
+.segment.highlight p {
+    font-size: 22px;
+}
+.segment .column.icon i.fa-facebook-square {
+    color: #3b5998;
+}
+.segment i.fa-paypal {
+    color: #3b7bbf;
+}
+.segment i.fa-credit-card {
+    color: deepskyblue;
+}
+.segment i.fa-money {
+    color: green;
+}
+.segment .column.icon i.fa-shopping-cart {
+    color: deeppink;
+}
+.segment i.fa-shopping-bag {
+    color: deepskyblue;
+}
+.segment i.fa-check-circle {
+    color:limegreen;
+    font-size:2em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.segment.landing i.fa-check-circle {
+    color:palegoldenrod;
+}
+.segment.highlight ul li a,
+.segment.highlight ul li span {
+    font-weight: 100;
+}
+.segment .features-summary a {
+    color:white;
+    font-weight: 100;
+}
+.segment .features-summary ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;  
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+}
+.segment .features-summary ul li {
+    display:inline-block;
+    width: 30%;
+    text-align:left;
+    float: left;
+}
+.segment .features-summary i.fa-check-circle {
+    color: greenyellow;
+}
+.segment.highlight .admin-console-container {
+    position: relative;
+}
+.segment.highlight .laptop-container {
+    position: relative;
+    margin-top: 20px;
+}
+.segment.highlight .mobile-container {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    top: 202px;
+    right: 0;
+    margin: 0 0 0 550px;
+    left: 0;
+}
+.segment.highlight img.admin-console-laptop {
+    width: 78%;
+    margin-top: -40px;
+}
+
+.segment.highlight .laptop-container .carousel {
+    top: 75px;
+    position: absolute;
+    width: 570px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.segment.highlight img.admin-console-mobile {
+    width: 135px;
+    height: 280px;
+}
+.segment.highlight .mobile-container .carousel {
+    top: 30px;
+    position: absolute;
+    width: 120px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.segment.highlight .mobile-container .carousel .item img {
+    height: 205px;
+    width: 135px;
+}
+
+.segment .column {
+    display: inline-block;
+    text-align: left;
+    width:45%;
+}
+.segment .link {
+    background: darkgray;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.04em;
+}
+.segment:nth-child(2) .link {
+    background: deepskyblue;
+}
+.segment:nth-child(3) .link {
+    background: #1e360d;
+}
+.segment .link.primary {
+    background: limegreen;
+}
+.segment .column.image img {
+    width: 100%;
+}
+.segment .column.menu {
+    width:20%;
+    border: 1px solid whitesmoke;
+}
+body.black .segment .column.menu {
+    border: 0px solid whitesmoke;
+}
+.segment .column.menu .panel-group {
+    margin-bottom: 0px;
+}
+.segment .column.menu .panel,
+.segment .column.menu .panel .list-group,
+.segment .column.menu .panel .list-group-item {
+    margin:0;
+    border-radius: 0;
+    border:0;
+    box-shadow: 0 0px 0px white;
+}
+.segment .column.menu .panel .panel-heading {
+    background:whitesmoke;
+    border-radius: 0;
+    border:0;
+    font-weight:100;
+    border-bottom: 1px solid lightgray;
+}
+.segment .column.menu .panel.active .panel-heading {
+    background:gray;
+    color:white;
+    font-weight:500;
+}
+.segment .column.menu .panel-collapse .panel-body {
+    border:0;
+}
+.segment .column.menu .panel .panel-collapse {
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+.segment .column.menu .panel .panel-collapse a,
+.segment .column.menu .panel .list-group-item a {
+    color: black;
+    font-weight: 100;
+    font-size: 16px;
+}
+.segment .column.menu .panel .panel-collapse a.active,
+.segment .column.menu .panel .list-group-item a.active {
+    text-decoration: underline;
+}
+
+.segment .column.menu-content {
+    margin-left:35px;
+    width:75%;
+}
+.segment .column.menu-content h1 {
+    font-size:40px;
+    margin:0px;
+    line-height: 50px;
+    text-align: center;
+}
+.segment .column.menu-content ul {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.segment .column.menu-content .breadcrumbs {
+    padding:0;
+    font-size:0.8em;
+}
+.segment .column.menu-content .segment.highlight {
+    min-height:350px;
+    border: 0;
+    background: white;
+}
+.segment .column.menu-content .segment.highlight.box {
+    border: 0px solid lightgrey;
+    background: whitesmoke;
+}
+.segment .column.image img {
+    width: 100%;
+    max-height:254px;
+}
+.segment .column.image.large img {
+    max-height: 400px;
+}
+.segment .column.icon {
+    font-size: 8em;
+    color:gray;
+}
+.segment .column.icon.right {
+    text-align: right;
+}
+.segment .column.left {
+    float: left;
+}
+.segment .column.right {
+    float: right;
+}
+.segment .column .carousel {
+    border: 20px solid whitesmoke;
+    border-bottom:0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.segment .column .carousel-inner > .item img {
+    min-height: 400px
+}
+.segment .column .carousel-control {
+    font-size: 60px;
+    width: 5%;
+    padding-top: 22%;
+    background-image: none;
+    color: whitesmoke;
+}
+.segment .column .carousel-indicators {
+    bottom: 0px;
+}
+.segment .column .carousel-indicators .active {
+    background-color: gray;
+}
+.segment .column .carousel-indicators li {
+    border: 1px solid gray;
+}
+.segment.carousel .column.right {
+    border: 1px solid gainsboro;
+    border-bottom: 0;
+    border-radius: 10px;
+    position: relative;
+    top: 16px;
+}
+.segment .column img.width-50p {
+    width: 50%;
+}
+.segment .column img.width-75p {
+    width: 75%;
+}
+.segment .column img.width-100p {
+    width: 100%;
+}
+.segment .column img.width-auto {
+    width: auto;
+}
+.segment .column p {
+    font-size: 18px;
+}
+
+#login_page .form-wrapper {
+    margin-top:0px;
+}
+.signup-form-wrapper
+{
+    background: white;
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #EDEDED;
+    padding: 3% 5%;
+}
+
+.signup-form-wrapper .form
+{
+    padding:20px;
+}
+.signup-form-wrapper input
+{
+    width: 96%;
+    height: 30px;
+}
+.signup-form-wrapper .row.tos
+{
+    text-align: center;
+    font-size: 0.9em;
+    color: black;
+}
+.signup-form-wrapper .row.tos a
+{
+    color: deepskyblue;
+}
+
+body.merchant .signup-form-wrapper input.ui-button {
+    height: 40px;
+    width: 94%;
+    margin-top: 20px;
+/*    background: lightgreen;*/
+    color: white;
+    border: 0;
+    font-size: 1.5em;    
+     letter-spacing: 0.05em;
+}
+
+.signup-merchant-form-wrapper
+{
+    margin: 40px 0px 30px;
+}
+.signup-merchant-form-wrapper a
+{
+    color: white;
+}
+.link-container .form-row.tos,
+.form-wrapper .form-container .form-row.tos
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.link-container .form-row.tos a,
+.form-wrapper .form-container .form-row.tos a
+{
+    color: deepskyblue;
+}
+
+.signup-merchant-form-wrapper .row
+{
+    position: relative;
+}
+.form-input{
+    border: 1px solid #EDEDED;
+}
+.form-input.pricing,
+.form-input.features,
+.form-input.custom-quote,
+.signup-merchant-form-wrapper .row .form-input {
+    width:20%;
+    height: 50px;
+    line-height: 20px;
+    padding: 8px;
+    margin: 10px 0 5px;
+    background: orangered;
+    color:white;
+    box-shadow: none;
+    border: 0 solid #c1c5cb;
+    border-color: #b0b5bd #c1c5cb #d2d6dc;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.form-input.pricing.ui-button,
+.form-input.custom-quote.ui-button,
+.signup-merchant-form-wrapper .row .form-input.ui-button {
+    height: 60px;
+    width: 316px;
+    font-size: 1.3em;
+    background: lightgreen;
+    color: white;
+}
+.form-input.features.primary,
+.form-input.pricing.ui-button {
+    background: limegreen;
+    height: 50px;
+}
+.form-input.pricing.ui-button span,
+.form-input.custom-quote.ui-button span {
+    margin-top:-3px;
+}
+.form-input.custom-quote.ui-button {
+    background: lightsalmon;
+    height: 52px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.signup-merchant-form-wrapper .row .errorMessage {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 1.1em;
+    color: orangered;
+    padding: 5px 10px;
+    background: pink;
+    border-radius: 2px;
+}
+.signup-merchant-form-wrapper .row .errorMessage:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -4px;
+    top: 8px;
+    border-style: solid;
+    border-color: transparent pink transparent transparent;
+    border-width: 5px 5px 5px 0;
+    display: block;
+}
+
+.contact-form-wrapper {
+    text-align: left;
+    margin: 50px auto;
+    width: 80%;
+    font-size: 1.1em;
+    background: whitesmoke;
+    color: #555;
+    border-radius: 8px;
+}
+.contact-form-wrapper .main-view .body {
+  padding: 0px 20px 20px;
+}
+.contact-form-wrapper .note {
+    font-size: 0.8em;
+    text-align: right;
+}
+.contact-form-wrapper .page form .ui-button {
+    border: 0;
+    width: 100px;    
+}
+.contact-form-wrapper .page form textarea {
+    width:100%;
+    border:0;
+}
+.contact-form-wrapper .page form input {
+    border: 0;
+    height: 30px;
+    width: 100%;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.segment.top h1 {
+    clear: both;
+}        
+
+body.wcm ul.copyright {
+    display: inline-block;
+    margin: 0px;
+    padding:0px;
+    font-weight:100;
+    margin-top:50px;
+}
+body.wcm ul.copyright li{
+    display: inline-block;
+    margin-right:3px;
+}
+body.wcm ul.copyright li,
+body.wcm ul.copyright li a{
+    font-size:13px;
+}
+
+.feature-content .segment {
+    min-height:300px;
+}
+.feature-content .breadcrumbs {
+    font-size: .9em;
+    text-align: left;
+    width: 100%;
+}
+
+/*iPad Pro*/
+@media screen and (max-width : 1024px){
+    .segment .features-summary ul li {
+        width: 50%;
+    }    
+    .segment.top h1, 
+    .segment.top h2, 
+    .segment.top h3 {
+        width: 100%;
+    }    
+    .segment.highlight img.admin-console-laptop {
+        width: 108%;
+        margin-top: -40px;
+        margin-left: -40px;
+    }    
+    .segment.highlight .laptop-container .carousel {
+        top: 90px;
+        width: 630px;
+    }
+    .segment.highlight .mobile-container {
+        top: 220px;
+    }    
+}
+/*iPad*/
+@media screen and (max-width : 768px){
+    .segment .column.menu-content {
+        width: 70%;
+    }
+    .segment .column img.width-auto {
+        width: 90%;
+    }    
+    .form-input.get-plan.ui-button {
+        width: 50%;
+    }    
+    .segment.features div.buttons {
+        width: initial;
+    }
+    .segment.highlight img.admin-console-laptop {
+        width: 100%;
+    }
+    .segment.highlight .laptop-container .carousel {
+        width: 460px;
+        top: 55px;
+        left: -35px;
+    }    
+    .segment.highlight .mobile-container {
+        top: 120px;
+        left: -100px;
+    }    
+    .segment.highlight .mobile-container .carousel {
+        left: 10px;
+    }        
+    .segment.highlight img.admin-console-mobile {
+        height: 250px;
+        width: 120px;
+    }    
+    .segment.highlight .mobile-container .carousel .item img {
+        height: 180px;
+        width: 110px;
+    }    
+    .segment.features-set {
+         padding: 10px; 
+    }    
+    .segment .features-summary ul li {
+        width: 48%;
+    }    
+    
+}
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    body.wcm .sitelogo {
+        margin:10px 0px;
+    }
+    body.wcm .mobile-wcm {
+        padding: 10px;
+        background: none;
+        font-size: 30px;
+    }    
+    body.wcm .offcanvasmenu .heading a {
+        padding: 0 10px;
+    }
+    body.wcm .offcanvasmenu .heading img {
+        width:120px;
+    }
+    .segment.canvas {
+        padding: 5%;
+    }
+    .segment.canvas h1 {
+        line-height: 40px;
+    }
+    .segment.canvas ul {
+        margin:0;
+        padding:0;
+    }
+    .segment.canvas.values ul li {
+        padding: 30px 20px;
+        margin: 10px;
+        width: 30%;
+        font-size: 16px;
+    }        
+    .segment .column {
+        display: block;
+        text-align: left;
+        width: 95%;
+    }
+    .segment.carousel .column.right {
+        border: 0px solid gainsboro;
+        border-bottom: 0;
+        border-radius: 0px;
+        position: relative;
+    }
+    .segment .column .carousel {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border: 5px solid lightgray;
+        border-bottom: 0;
+    }
+    .segment .column .carousel-control {
+        width: 8%;
+        padding-top: 40%;
+    }
+    .segment .link,
+    .segment .column .link {
+        display: inherit;
+        position: initial;
+        text-align: center;
+        border-radius: 0px;
+    }
+    .segment .column .link {
+        display: none;
+    }
+    .segment .column .link.mobile-display-only {
+        display: inherit;
+    }
+    .segment.highlight:nth-child(odd) {
+        border: 0px solid lightgrey;
+        margin: 0%;
+    }
+    .segment.landing.top {
+        text-align: center;
+    }    
+    .segment.landing.top h2 {
+        background: none;
+        color:white;
+        padding: 0;
+        opacity: 1;
+        display: initial;
+    }    
+
+    .segment.landing img.landing-background {
+        left: 70px;
+        top: 140px;
+        width: 100%;
+        display: none;
+    }    
+    .segment.features img.main-background {
+        width: 140%;
+        padding: 20px 0px 0px;
+        margin-left: -80px;
+    }
+    .segment.top .signup-merchant-form-wrapper .form-input.ui-button {
+        background: whitesmoke;
+        width: 100%;
+        position: relative;
+        top: -20px;
+    }    
+    .segment.top .signup-merchant-form-wrapper {
+        margin: 40px 20px 0px;
+    }    
+    .feature-content {
+        padding: 5%;
+    }
+    .segment.features div.buttons {
+        width: auto;
+        margin: 20px;
+    } 
+    .segment.features div.buttons button:first-child {
+        margin-top: 30px;
+    } 
+    .segment.features div.buttons button {
+        margin-top: 5px;
+    } 
+    .segment.features-set {
+        margin: 0;
+        padding:0px;
+    }
+    .segment .column.menu {
+        width: 100%;
+    }
+    .segment .column.menu-content {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .segment .column.menu-content .breadcrumbs {
+        padding-left: 5%;
+    }
+    .segment .column.menu-content .segment {
+        margin:0px;
+        padding: 25px 5%;
+    }
+    .segment .column.menu-content h1 {
+        line-height:45px;
+        margin-top: 0px;
+        font-size:25px;
+    }
+    .segment .column.menu-content .segment.highlight.box {
+        border: 0px solid lightgrey;
+    }    
+    .feature-content .breadcrumbs {
+        padding: 10px 10px;
+    }
+    
+    .segment.highlight p {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+    .segment.highlight {
+        min-height: 400px;
+    }
+    .segment .column .carousel-inner > .item img {
+        min-height: 250px; 
+    }    
+    .segment .column.left,
+    .segment .column.right {
+        float: none;
+    }
+    .segment .callout {
+        width: 90%;
+        padding: 50px 5px;
+    }
+    .segment .callout:last-child {
+        border-bottom: 0px dashed lightgray;
+    }
+    .segment:first-child .callout {
+        border-bottom: 0px;
+    }
+    .form-wrapper,
+    .form-input.get-plan.ui-button,
+    .signup-form-wrapper{
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .form-input.pricing.ui-button,
+    .form-input.custom-quote.ui-button,
+    .signup-merchant-form-wrapper .row .form-input.ui-button,
+    .segment.features div.buttons button,
+    .form-input.pricing, 
+    .form-input.custom-quote, 
+    .signup-merchant-form-wrapper .row .form-input {
+        width: 90%;    
+    }
+    .form-input.pricing, 
+    .form-input.features {
+        width: 50%;
+    }    
+    .form-wrapper,
+    .link-container,
+    .signup-form-wrapper{
+        border:0;
+    }
+
+    .segment {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .segment h1,
+    .segment.faq h1,
+    .segment.feature-set h1,
+    .segment.custom h1 {
+        font-size: 2em;
+        margin:0;
+        line-height: 45px;
+    }
+    .segment.feature-set h1,
+    .segment.custom h1 {
+        line-height: 40px;
+    }
+    .segment:first-child h1 {
+        font-size: 2.5em;
+    }
+    .segment h1:first-child {
+        margin-top: 50px;
+    }
+    .segment h2 {
+        font-size: 1.1em;
+        color: black;
+    }    
+    .segment .column h2 {
+        font-size: 2em;
+        font-weight: 200;
+        line-height: 35px;
+    }    
+    .segment.top h2,
+    .segment.top h3,
+    .segment.top p {
+        font-size: 18px;
+        color: black;
+        margin: 20px;
+    }
+    .segment.top {
+        min-height: 300px;
+        color:white;
+    }
+    body.black .segment h2,
+    body.black .segment h3,
+    body.black .segment.top h3,
+    body.black .segment.top p {
+        color: white;
+    }    
+    .segment.highlight h1 {
+        line-height: 36px;
+        font-weight: 200;
+        font-size: 30px;
+    }    
+    .segment.features h1 {
+        padding: 0;
+    }
+    .segment.landing h1,
+    .segment.features h1,
+    .segment.pricing h1 {
+        line-height: 45px;
+        margin: 20px;
+    }
+    .segment.landing.top h1 {
+        margin-top: 80px;
+    }
+    .segment.pricing.top {
+        padding: 50px 20px 20px;
+    }
+    .segment.pricing h3 {
+        color: black;
+    }
+    body.black .segment.landing h1,
+    body.black .segment.features h1,
+    body.black .segment.pricing h1,
+    body.black .segment.pricing h3 {
+        color: white;
+    }
+    .segment .plan-card {
+        min-width: auto;
+    }
+    .segment .plan-button {
+        left: 0;
+        right: 0;
+    }
+    .segment .plan-features {
+        text-align: center;
+    }
+    .segment .plan-features h2 {
+        margin: 0;
+    }
+    .segment .plan-features ul {
+        margin: 0;
+        padding: 0;
+    }    
+    .segment .items .plan-package {
+        min-width: 100%;
+    }
+    .segment .plan-features blockquote p {
+        font-size: 12px;
+        margin: 0;
+        text-align: left;
+        display: inline;
+    }    
+    .segment.common-features .callout {
+        width: 45%;
+        text-align: center;    
+    }    
+    .segment.package .feature-set .callout {
+        display: inline-block;
+        font-size: .8em;
+        padding: 15px 0px;
+        width: 30%;
+        text-align: center;    
+    }    
+    .segment .callout h3 {
+        font-size: 20px;
+    }
+    .segment.faq .question-wrapper {
+        margin: 0px 10px;
+    }
+    .segment.faq .question-wrapper .question {
+        width: 100%;
+        padding: 0px;
+    }
+    .segment .callout p {
+        font-size: 17px;
+    }
+
+    .segment.get-plan div,
+    .segment.get-plan h2 {
+        display: block;
+        margin: 10px 10px 25px;
+        font-size: 20px;
+    }
+    .segment.get-plan .form-input.get-plan.ui-button {
+        width: 80%;
+    }
+    .form-input.get-plan.ui-button {
+        margin-left: 0px;
+    }
+
+    .segment .features-summary ul {
+        padding-left: 0;
+        width: 100%;
+        margin-bottom: 0;
+        font-size: 15px;
+    }    
+    .segment .features-summary ul li {
+        width: 100%;
+        padding-left: 10%;
+    }
+    
+    .segment .features-summary i.fa-check-circle {
+        font-size: 1.5em;
+    }
+
+    .segment .callout.community,
+    .segment .callout.messenger {
+        width: 90%;
+        padding: 0;
+    }
+    
+    .segment.highlight img.admin-console-laptop {
+        width: 120%;
+        margin-left: -40px;
+    }
+    
+    .segment.highlight .laptop-container .carousel {
+        top: 20px;
+        width: 290px;
+    }    
+    
+    .segment.highlight .mobile-container {
+        margin: 0 0 0 280px;
+        top: 100px;
+    }    
+    
+    .segment.highlight img.admin-console-mobile {
+        width: 60px;
+        height: 120px;
+    }
+    .segment.highlight .mobile-container .carousel .item img {
+        width: 55px;
+        height: 85px;
+    }
+    .segment.highlight .mobile-container .carousel {
+        top: 15px;
+        width: 50px;
+        left: 0;
+    }    
+    .segment .buttons.admin-console, 
+    .segment .buttons.community {
+        margin-top: 0; 
+        padding-bottom: 0px;
+    }    
+    .segment .web-content h2 {
+        font-size: 1.4em;
+        color: black;
+        font-weight: 400;
+    }
+    .segment.canvas p {
+        max-width: 90%;
+    }    
+    body.black .feature-set h2, 
+    body.black .feature-set h3, 
+    body.black .faq h3, 
+    body.black .custom h3, 
+    body.black .plan-features h2, 
+    body.black .plan-features h3, 
+    body.black .plan-features p {
+        color: #111;
+        font-weight: 100;
+    }
+    
+    .contact-form-wrapper {
+        width: 100%;
+    }
+    .contact-form-wrapper .page form input {
+        width:100%;
+    }
+    body.wcm #signup_page,
+    body.wcm #login_page {
+        padding: 80px 10px 40px;
+    }
+    #login_page .main-view .body {
+        padding: 0;
+    }
+    #login_page .form-wrapper {
+        width: 95%;
+    }    
+    #login_page .form-container form input.ui-button {
+        width: 91%;
+    }
+    .segment .features-summary ul li {
+        padding-left: 5%;
+    }
+    
+}
+/* iPhone6 Plus*/
+@media screen and (max-width : 414px){
+    .segment.landing h1, 
+    .segment.features h1, 
+    .segment.pricing h1 {
+        margin: 20px;
+    }
+    .segment.highlight .laptop-container .carousel {
+        width: 275px;
+        right: -26px;
+    }    
+    .segment.highlight .mobile-container {
+        top: 80px;
+        left: -30px;
+    }    
+}
+/* Nexus 6p/ 5x */
+@media screen and (max-width : 412px){
+    
+}
+/*iPhone 6*/
+@media screen and (max-width : 375px){
+    .segment.landing h1, 
+    .segment.features h1, 
+    .segment.pricing h1 {
+        margin: 10px;
+    }
+
+    .segment.highlight .laptop-container .carousel {
+        width: 250px;
+        right: -20px;
+        top: 15px;
+    }    
+    .segment.highlight .mobile-container {
+        top: 60px;
+    }    
+    .segment.highlight .mobile-container .carousel {
+        width: 52px;
+    }    
+    .segment.landing h1, 
+    .segment.features h1, 
+    .segment.pricing h1 {
+        font-size: 35px;
+    }    
+    
+}
+
+/* Galaxy S5*/
+@media screen and (max-width : 360px){
+
+    .segment.highlight .laptop-container .carousel {
+        width: 240px;
+        right: -19px;
+        top: 10px;    
+    }    
+}
+
+/*iPhone 5 */
+@media screen and (max-width : 320px){
+
+    .segment.landing h1, 
+    .segment.features h1, 
+    .segment.pricing h1 {
+        font-size: 30px;
+    }    
+    .segment.highlight .laptop-container .carousel {
+        top: 5px;
+        width: 215px;
+        right: -12px;
+    }        
+    .segment.highlight .mobile-container {
+        margin: 0 0 0 200px;
+        top: 30px;
+    }
+}

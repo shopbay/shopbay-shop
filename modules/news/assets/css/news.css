@@ -1,0 +1,21 @@
+.main-view .body .content {
+    padding: 10px 10px;
+}
+.main-view .body .lastedit {
+    color: lightgrey;
+    padding: 20px 0px;
+    float:right;
+}
+
+.main-view .body textarea {
+    width:50%;
+}
+
+#news_page .single-image-container img {
+    max-width: 100%;
+}
+
+.news-image img {
+    width: 100%;
+    max-height: 400px;
+}

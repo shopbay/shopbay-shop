@@ -1,0 +1,23 @@
+# -----------
+# This file is part of Shopbay.org (https://shopbay.org)
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code. 
+# -----------
+# This script will update latest source code to current checkout.
+# It reads the local config.json but calls DeployCommand.php at shopbay-console
+#
+# Require: shopbay-console
+#
+# @author kwlok
+# -----------
+CONFIGPATH="$PWD/config.json"
+echo "Target config.json: $CONFIGPATH"
+
+cd ..
+cd shopbay-console
+echo "Switch to working directory: $PWD"
+
+php console deploy index --jsonFile=$CONFIGPATH
+
+# Make sure file is executable
+chmod 744 deploy

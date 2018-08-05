@@ -1,0 +1,15 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteBase /
+
+# If the requested file or directory does not exist...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ...and if the source URL points to an image, we redirect to the create image URL.
+RewriteRule ^versions/([a-zA-Z0-9]+)/([0-9]+)\.(gif|jpg|png)$ image/default/create?id=$2&version=$1 [L,R,QSA]
+
+</IfModule>

@@ -1,0 +1,403 @@
+* {
+    -webkit-box-sizing: content-box; /*override bootstrap.css */
+}
+body.site-page .header-container .sitelogo {
+    padding: 5px 20px;
+}
+body.site-page .page-container {
+    min-height: auto;
+    top: 40px;
+}
+body.site-page .main-view .heading .name-wrapper {
+    margin-left: 20px;
+}
+body.site-page .main-view .body button {
+    width: auto;
+}
+
+body .header-container .sitelogo .subscript {
+    background: orange;
+}
+
+body.shop {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black;
+    font: normal 10pt sans-serif;
+}
+body.shop.login {
+    font: normal 10pt sans-serif;
+}
+body.shop.login .footer-container{
+    background: #F8F8F8;
+    border-top: 1px solid #EDEDED;
+}
+body.shop.login .footer-container{
+    margin-top: 60px;
+}
+body.shop.login .footer-container a:hover {
+    color: black;
+    text-decoration: underline;
+}
+body.shop .header-container {
+    background: none;
+    border: 0;
+}
+body.shop.login .header-container {
+    z-index: 100;
+    position: relative;
+}
+body.shop.login .page-container {
+    top:5px;
+}
+body.shop .header-container {
+    position: absolute;
+}
+body.shop.login .header-container {
+    border-bottom: 1px solid whitesmoke;
+    z-index: 900;
+    background: white;
+}
+body.shop .header-container .portal-menu.active a {
+    text-decoration: underline;
+}
+body.shop.login .header-container .sitelogo {
+    margin: 0;
+}
+body.shop .header-container a,
+body.shop .header-container .sitelogo a {
+    color: black;
+}
+body.shop .header-container .shop-logo {
+    height:34px;
+    vertical-align: middle;
+}
+body.shop .header-container a:hover{
+    text-decoration: underline;
+}
+body.shop .header-container .sitelogo .subscript {
+    background: orange;
+}
+body.shop.login .nav-menu ul {
+    font-size: 16px;
+    letter-spacing: 0;
+}
+body.shop.login .nav-menu ul li {
+    line-height: 2.2;
+}
+body.shop.login .page-container {
+    position: relative;
+    top: 38px;
+}
+body.shop .page-container .segment:first-child {
+    margin-top: 0;
+    padding: 5%;
+}
+body.shop.login .smodal-content input {
+    height: 30px;
+}
+body.shop .smodal-content input.ui-button {
+    height: 50px;
+}
+body.shop .smodal-content .form .checkbox-wrapper {
+    position: relative;
+    top: -15px;
+}
+body.shop .page-container .segment:nth-child(even) {
+    background:white;
+}
+body.shop .segment:first-child div.form .row {
+    font-weight:100;
+    margin-top: 30px;
+}
+body.shop.modal-view .zoomContainer {
+    z-index: 1050;/*z-index must above smodal z-index 1000 to be visible**/
+}
+
+.segment:first-child .callout p {
+    color: lightgray;
+}
+.segment .search-bar {
+    width: 50%;
+    margin: 0 auto;
+}
+.segment .search-bar input {
+    text-align: center;
+}
+.segment .search-bar ul li.search-text {
+    width: 90%;
+}
+
+.form-input.filled {
+    background: whitesmoke;
+}
+.customer-signup {
+    background: white;
+    padding-bottom: 20px;
+}
+.customer-signup .main-view .heading .name {
+    position: relative;
+    top: 10px;    
+}
+.customer-signup #flash-bar {
+    margin-bottom: 20px;    
+}
+.customer-signup .form-input {
+    font-size: 12px;
+    padding: 3px 7px;
+}
+.customer-signup .form-wrapper {
+    width:auto;
+    margin: 0;
+}
+.customer-signup .form-wrapper h1 {
+    padding:20px;
+}
+.customer-signup .form-container #flash-bar {
+    margin:0px;
+}
+.customer-signup .form-container {
+    padding: 0px 0px 40px;
+}
+.customer-signup p {
+    text-align: left;
+}
+.customer-account-form {
+    display:inline-block;
+    width:40%;
+    text-align:left;
+}
+.customer-address-form {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    position: relative;
+}
+.customer-form-separator {
+    display: inline-block;
+    width: 5%;
+}
+.customer-address-form .form-row .column:first-child {
+    margin-left: 0px;
+}
+.customer-address-form .form-row .column {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20px;
+}
+.customer-address-form .chzn-container {
+    font-size: 14px;
+}
+.customer-signup form > div:last-child{
+    margin-bottom: 20px;
+}
+.customer-signup .ui-button {
+    margin-top:30px;
+    height: 50px;
+    width: 30%;    
+}
+
+.customer-signup div.form input, 
+.customer-signup div.form textarea, 
+.customer-signup div.form select {
+    margin: 0em 0 .5em 0; 
+}
+
+#register_page span.required {
+    color: red;
+}
+#register_page #flash-bar > div {
+    padding: 10px 40px;
+}
+#register_page .row.center {
+    text-align: center;
+}
+#register_page .row.tos{
+    margin-top: 10px;
+    font-size: 0.9em;    
+}
+#register-button {
+    margin-top: 30px;
+}
+
+#CustomerAddressForm_state,
+#CustomerAddressForm_country {
+    width:180px;
+    height: 35px;
+}
+
+#cart_template #flash-bar {
+    padding-top: 10px;
+}
+    
+.row.html_page,
+#html_page,
+.shop-subpage .embedded-page,
+.html_page .embedded-page,
+.embedded-page .page-layout,
+.html_page .order-flash,
+.html_page .account-creation {
+    margin:0;
+    padding:0;
+}
+.sgridcolumn.html_page {
+    padding: 0;
+    margin-bottom: 50px;
+}
+/*Not displaying following layout elements in shop theme layout */
+.html_page .main-view .heading .tag-wrapper,
+.html_page .main-view .line-break {
+    display: none;
+}
+.html_page .smodal {
+    top: -10%;
+}
+#html_page .upload-form {
+    padding-left:25px;
+}
+#html_page .upload-form textarea {
+    margin-top: 10px;
+}
+#html_page .transition-button {
+    border: 0;
+    padding: 10px 20px;
+}
+#html_page .fileinput-button {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.embedded-page .main-view {
+    margin-top: 0;
+}
+.error-page .segment.error {
+    padding: 0; 
+    min-height:auto;
+}
+.error-page .segment.error h1 {
+    margin: 0;
+}
+body.shop .password-reset-form  .form-container {
+    width: 500px;
+}
+body.shop .password-reset-form  #flash-bar {
+    margin: 0;
+}
+body.shop .password-reset-form  .ui-button {
+    font-size: 18px;
+    margin-top: 30px;
+    width: 456px;
+    height:20px;
+}
+
+body.shop .main-view .body .data-form {
+    display: inline-block;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    body.shop.login .page-container {
+        top: 0px;
+    }
+    body.shop.login .page-content.center {
+        margin-top: 0px;
+    }
+    body.shop.login .spagefilter-mobile,
+    body.shop.login .spagefilter-mobile .page-menu {
+        top: 0px;
+    }
+    body.shop.login .sitelogo {
+        padding-left: 5px;
+        width:69%;
+    }
+    body.shop .sitelogo img {
+        max-width: 60px;
+    }
+    body.shop .mobile-login {
+        padding: 1px 2px;
+    }
+    body.shop.login .mobile-login {
+        padding: 0px 2px;
+    }
+    .customer-signup .form-container {
+        padding: 5% 5% 0px;
+    }
+    .customer-account-form,
+    .customer-form-separator,
+    .customer-address-form {
+        display: block;
+        width: auto;
+        padding: 5% 5% 0px;
+    }
+    .customer-address-form {
+        padding: 0 5% 0px;
+    }
+    .form-wrapper {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    
+    .segment .search-bar {
+        width: 90%;
+    }
+    .segment .search-bar ul li.search-text {
+        width: 80%;
+    }
+    .segment .list-view .item a img,
+    .segment .list-view .shop a img {
+        width: 165px;
+    }
+    .segment .itemlink,
+    .segment .shoplink {
+        display:block;
+    }
+    body.shop .main-view .body .customer-address-form {
+        padding-left: 5%;
+    }
+    #register_page {
+        margin: 50px 1%;        
+    }
+    #register_page h1,
+    #register_page h2 {
+        margin: 30px 5%;
+    }
+    #register_page p {
+        padding: 0px 5%;
+    }
+    #register-button {
+        width: 82%;
+    }
+    #register_page .row.button,
+    #register_page .row.tos{
+        text-align: center;
+    }
+    
+    #CustomerAddressForm_state,
+    #CustomerAddressForm_country {
+        width:100%;
+    }
+    
+    #html_page .task-form .button-wrapper {
+        margin-left:10px;
+    }
+    #html_page .transition-button {
+        margin-bottom: 20px;
+    }
+    body.shop .password-reset-form  .form-container {
+        width: 80%;
+        padding: 5%;
+    }
+    body.shop .password-reset-form  .ui-button {
+        width: 90%;
+    }
+
+    
+}
+@media screen and (max-width : 320px){
+    .segment .list-view .item a img,
+    .segment .list-view .shop a img {
+        width: 140px;
+    }
+    
+}

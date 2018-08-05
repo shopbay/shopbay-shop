@@ -1,0 +1,142 @@
+.main-view .heading .status.all {
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+.main-view .body .comment {
+    font: 14px/20px italic Times, serif;
+    padding: 5px;
+    background-color: whitesmoke;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-indent: 0px;
+}
+.main-view .body .arrow-up {
+    font-size: 0px;
+    line-height: 0%;
+    width: 0px;
+    border-bottom: 12px solid whitesmoke;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    margin-left: 15px;
+}
+
+.main-view .body .order-heading {
+    padding-top:15px;
+}
+.main-view .body .order-heading .name {
+    font-size:2em;
+    margin-bottom:10px;
+    margin-top:0px;
+    position:relative;
+}
+.main-view .body .order-heading .name a {
+    text-decoration:none;
+    color:black;
+}
+.main-view .body .order-heading .name .tag {
+    font-size: 0.7em;
+    position:absolute;
+    top:0px;
+    margin-left:5px;
+}
+.main-view .body .order-heading .name > .tag {
+    width:100%;
+}
+.main-view .body .order-heading .superscript {
+    padding-left:3px;
+}
+.price-details .info .value,
+.price-details .tooltips
+{
+    padding:0px;
+}
+.price-details #usual_price
+{
+    text-decoration:line-through;
+    font-style: italic;
+}
+
+.main-view .body .detail-view .usual-price,
+.grid-view .items .usual-price {
+    padding-left: 5px;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.grid-view .items .usual-price {
+    padding-left: 0px;
+    display: block;
+}
+
+.recent-item {
+    background: whitesmoke;
+    display:inline-block;
+    min-width:30%;
+    margin:5px;
+    vertical-align: top;
+}
+
+.recent-item .image {
+    float:left;
+    margin:5px;
+}
+.recent-item .text {
+    padding: 5px;
+}
+
+.main-view .body .data-element .button {
+    text-align: right;
+}
+
+#receive-button {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+#order_summary_grid .tag a {
+    color: white;
+}
+
+#item_workflow .button-wrapper {
+    float: right;
+    font-size: 1.5em;
+}
+#item_workflow .form {
+    width: 70%;
+}
+#item_workflow #attachment {
+    width: 71%;
+}
+#item_workflow .task-form textarea {
+    font-size: 1em;
+    padding: 2px 5px;
+}
+#item_workflow #Review-button {
+    display:none;
+}
+
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    .main-view .heading .view-control ul li {
+        padding: 5px 0px;
+    }
+    .main-view .heading .view-control ul li.active {
+        padding: 2px;
+        border: 1px dashed darkgray;
+    }
+    .main-view .body .data-column.image,
+    .main-view .body .data-column.normal {
+        width: 100%;
+    }
+    #item_workflow .button-wrapper {
+        float: none;
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    #item_workflow .form,
+    #item_workflow #attachment {
+        width: 100%;
+    }
+}

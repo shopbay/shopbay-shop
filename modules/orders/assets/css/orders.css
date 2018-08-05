@@ -1,0 +1,413 @@
+.main-view .heading .status.all {
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+/* we need to custom this as the status for PO is too many and taking a lot of spaces*/
+#order_index_page .main-view .heading {
+    width:120%;
+}
+.page-content .main-view .heading .view-control {
+    padding-left:20px;
+}
+.page-content .main-view .view-control-linebreak {
+    width:78%;
+}
+
+.order-items .data-element {
+    display: inline-block;
+    vertical-align: top;
+}
+.order-items .data-element .value {
+    padding: 8px;
+}
+.order-items .checkbox-column {
+    width: 3%;
+    text-align: center;
+}
+.order-items .item-column {
+    width:53%;
+    position: relative;
+}
+.order-items .item-column a {
+    color: black;
+}
+.order-items .item-column .items-counter,
+.order-items .actions-column .items-counter {
+    color: red;
+    background: white;
+    padding: 0;
+}
+.order-items .price-column {
+    width:20%;
+    text-align: center;
+}
+.order-items .quantity-column,
+.order-items .subtotal-column {
+    width:12%;
+    text-align: center;
+}
+.order-items .remarks-column {
+    width: 73%;
+}
+.order-items .remarks-column dt {
+    padding: 5px 0px 5px 20px;
+    font-weight: bold;
+}
+.order-items .remarks-column dd,
+.order-items .remarks-column ul {
+    margin: 0;
+}
+.order-items .shipping-subtotal-column {
+    text-align: right;
+    width: 19%;
+}
+.order-items .shipping-subtotal-column .key {
+    padding: 5px 0px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.order-items .shipping-subtotal-column .value {
+    padding: 5px 0px;
+    color: black;
+    display: inline-block;   
+    width: 65px;
+}
+.order-items #order_subtotal
+{
+    padding:0px;
+}
+.order-items .total .key {
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.order-items .total .value {
+    padding: 5px 0px;
+    color: black;
+}
+
+.order-total {
+    margin: 20px 0 30px;
+}
+.order-item-header {
+    padding: 0;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-right: 40px;    
+    text-align: right;
+}
+.order-item-header .item-column .value {
+    margin-left: -20px;
+    font-weight: normal;
+}
+.order-item:nth-child(odd)
+{
+    background: #F9F9F9;
+}
+.order-item a:hover {
+    color: red
+}
+.order-item a {
+    color: #888;
+    text-decoration: none;
+}
+.order-item .item-details {
+    display: inline-block;
+    padding: 8px;
+    width: 83%;
+}
+.order-item .item-details #item_name
+{
+    font-size: 1.2em;
+    margin-left: -3px;
+}
+.order-item .item-details #item_name .tag
+{
+    margin-left: 5px;
+    font-size: 0.65em;
+    vertical-align: middle;
+    padding: 1px 3px 0px 2px; 
+}
+.order-item .item-details #item_promotion_flag
+{
+    position: absolute;
+    left: -1px;
+    top: 50px;
+    z-index: 200;
+}
+.order-item .item-details #item_promotion_flag .tag
+{
+    background: red;
+    padding: 0px 8px;
+}
+.order-item .item-details #item_promotion_flag
+{
+    position: absolute;
+    left: -2px;
+}
+.order-item .item-details #item_promotion_flag .tag
+{
+    background: red;
+    padding: 0px 8px;
+}
+.order-item .item-details .info
+{
+    clear:both;
+    font-size:0.9em;
+}
+.order-item .item-details .info .key,
+.order-item .item-details .info .value {
+    display:inline-block;
+    padding: 3px 0px;
+}
+.order-item .price-details .info .value
+{
+    padding:0px;
+}
+.order-item .price-details #usual_price
+{
+    text-decoration:line-through;
+    font-style: italic;
+}
+
+.order-shop {
+    border:1px solid #EDEDED;
+}
+.order-footer .actions-column {
+    margin: 15px;
+    width:10%;
+}
+.order-footer .info-column {
+    margin: 15px;
+    width: 55%;
+}
+.order-footer .info-column .data-block {
+    float:left;
+    position:relative;
+    padding-right:50px;
+}
+.order-footer .info-column .data-block .data-element {
+    padding-top:5px;
+    display: block;
+}
+.order-footer a {
+    text-decoration: none;
+    color:grey;
+    cursor: pointer;
+}
+.order-footer a:hover {
+    color:red;
+}
+.order-footer .grand-total-column {
+    margin: 15px;
+    text-align: right;
+    width: 22%;
+}
+.order-footer .grand-total-column .total {
+    padding-bottom: 5px;
+}
+.order-footer .grand-total-column .grandtotal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}
+.order-footer .grand-total-column .discount,
+.order-footer .grand-total-column .promocode,
+.order-footer .grand-total-column .freeshipping {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.order-footer .grand-total-column .discount {
+    background: lightyellow;
+}
+.order-footer .grand-total-column .discount.hidden {
+    display: none;
+}
+.order-footer .grand-total-column .promocode {
+    background: lightcyan;
+}
+.order-footer .grand-total-column .promocode.hidden {
+    display: none;
+}
+.order-footer .grand-total-column .freeshipping {
+    background: linen;
+}
+.order-footer .grand-total-column .freeshipping.hidden {
+    display: none;
+}
+.order-footer .grand-total-column .refundtotal{
+    background: #ffe5e9;;
+    border-bottom: 1px solid #ffe5e9;
+}
+
+.order-footer .grand-total-column .key {
+    padding: 5px 0px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+.order-footer .grand-total-column .value {
+    padding: 5px 0px;
+    color: black;
+    display: inline-block;   
+    width: 65px;
+    font-size: 1.1em;
+}
+
+.order-items .shop {
+    float: left;
+    color: white;
+    background: pink;
+    padding: 5px 10px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 1.15em;
+    position: relative;
+    top: 20px; 
+}
+
+.detail-view .data-element .tag a {
+    color:white;
+    text-decoration:none;
+}
+
+.shipping-order {
+    padding:0px 10px;
+}
+
+.shortcuts {
+    margin: 0;
+    list-style-type: none;
+}
+.shortcuts li .letter-icon {
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.transition-form-container {
+    position:relative;
+}
+
+.detail-view .data-element .value .discount:first-child {
+    display: inline;
+    margin-left: 0;
+}
+.detail-view .data-element .value .discount {
+    padding: 5px 0px;
+}
+.detail-view .data-element .value .discount .tooltips {
+    padding:0;
+}
+
+#order_summary_grid .tag a {
+    color: white;
+}
+
+.order-message .data-element .key {
+    font-size: 1.25em;
+    color: black;
+}
+.order-message .ui-button {
+    padding: 5px;
+    border: 0;
+    color: white;    
+    background: lightseagreen;
+}
+.account-creation .order-message .ui-button {
+    color: white;    
+    background: steelblue;
+}
+#order_workflow .button-wrapper {
+    float: right;
+    font-size: 1.5em;
+}
+
+.account-creation,
+.order-flash,
+.order-shop-header {
+    margin: 0  .5%;
+    margin-bottom: 0; 
+}
+.order-shop-header {
+    padding: 20px;
+    font-size: 2em;
+    background: darkgray;
+}
+.order-shop-header .data-element img {
+    vertical-align: middle;
+}
+.order-shop-header .data-element .value {
+    padding-left: 20px;
+}
+.order-shop-header .data-element a {
+    text-decoration: none;
+    color: white;
+}
+#item_name a {
+    text-decoration: underline;
+}
+.section-heading .tag {
+    font-size: 0.7em;
+    padding: 3px 8px 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    #order_index_page .main-view .heading {
+        width: auto;
+    }    
+    .main-view .heading .view-control ul li {
+        padding: 5px 0px;
+    }
+    .main-view .heading .view-control ul li.active {
+        padding: 2px;
+        border: 1px dashed darkgray;
+    }
+    .order-items .order-total .remarks-column,
+    .order-items .actions-column,
+    .order-items .grand-total-column {
+        width: 90%;
+    }
+    .order-items .order-total .shipping-subtotal-column{
+        width: 90%;
+        text-align: right;
+        padding-top: 20px;
+    }    
+    .order-items .order-item-header .item-column,
+    .order-items .order-item .item-column{
+        width: 48%;
+    }
+    .order-items .order-item-header .price-column,
+    .order-items .order-item .price-column,
+    .order-items .order-item-header .quantity-column,
+    .order-items .order-item .quantity-column,
+    .order-items .order-item-header .subtotal-column,
+    .order-items .order-item .subtotal-column {
+        width: 16%;
+    }
+    .order-footer .info-column {
+        width: 90%;
+    }    
+    .order-footer .info-column .data-block {
+        display: inline-block;
+        vertical-align: top;
+    }    
+    .shipping-order {
+        padding: 0;
+    }
+    #order_workflow .button-wrapper {
+        float: none;
+    }
+    .page-content .main-view .heading {
+        width: auto;
+    }
+}
